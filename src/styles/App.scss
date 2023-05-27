@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 478px;
+    height: 50px;
+    background: #222e35;
+  }
+
+  .icons {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+    color: #aebac1;
+  }
+
+.nav-functions {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.chats {
+    display: flex;
+    flex-direction: column;
+    width: 478px;
+    background: #2b3840;
+}
+
+button {
+    justify-content: center;
+}
