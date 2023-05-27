@@ -1,5 +1,22 @@
+:root {
+  --backgroundColor: #222e35;
+  --border-stronger: rgba(134, 150, 160, 0.15);
+}
+
+button {
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+  background: none;
+  border: 0;
+}
+
 * {
   margin: 0;
+}
+
+body {
+  background: var(--backgroundColor);
 }
 
 nav ul li {
@@ -12,7 +29,8 @@ nav ul li {
   justify-content: space-between;
   width: 478px;
   height: 50px;
-  background: #222e35;
+  background: var(--backgroundColor);
+  border-right: 1px solid var(--border-stronger);
 }
 
 .icons {
@@ -25,7 +43,6 @@ nav ul li {
 .nav-functions {
   display: flex;
   align-items: center;
-  height: 100%;
 }
 
 .chats {
@@ -33,8 +50,40 @@ nav ul li {
   flex-direction: column;
   width: 478px;
   background: #2b3840;
+  border-right: 1px solid var(--border-stronger);
 }
 
-button {
-  justify-content: center;
+.chat-item {
+  margin-top: 10px;
+}
+
+.chat-search {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat-search input {
+  background: var(--backgroundColor) url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+  background-size: 20px;
+  color: #fff;
+  padding-left: 25px;
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 410px;
+  outline: none;
+  border-radius: 8px;
+  height: 35px;
+  border: none;
+  border-color: transparent;
+}
+
+.chat-search button {
+  background: transparent;
+  margin-right: 8px;
+  margin-top: 2px;
+}
+
+.chat-search button:hover {
+  transition: 1s;
+  transform: rotate(180deg);
 }/*# sourceMappingURL=App.css.map */
