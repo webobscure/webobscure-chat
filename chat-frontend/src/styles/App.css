@@ -63,13 +63,13 @@ nav ul li {
 }
 
 .chat-search input {
-  background: var(--backgroundColor) url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+  background: var(--backgroundColor);
   background-size: 20px;
-  color: #fff;
-  padding-left: 25px;
+  color: #e2dcdc;
+  padding-left: 45px;
   margin-top: 5px;
-  margin-left: 5px;
-  width: 410px;
+  margin-left: 10px;
+  width: 405px;
   outline: none;
   border-radius: 8px;
   height: 35px;
@@ -79,11 +79,15 @@ nav ul li {
 
 .chat-search button {
   background: transparent;
-  margin-right: 8px;
+  margin-right: 10px;
+  padding-left: 10px;
   margin-top: 2px;
 }
 
-.chat-search button:hover {
-  transition: 1s;
-  transform: rotate(180deg);
+.search-icon {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 60px;
+  left: 15px;
 }/*# sourceMappingURL=App.css.map */
